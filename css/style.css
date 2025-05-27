@@ -215,3 +215,152 @@ main {
 .btn.cancelar {
     background-color: #333; }
 
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .Header-Container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+        height: auto;
+    }
+
+    .Nav-UL {
+        margin: 0;
+        flex-direction: column;
+        width: auto;
+        gap: 10px;
+    }
+
+    .Container-Informacion {
+        flex-direction: column;
+        text-align: center;
+        gap: 30px;
+        padding: 20px;
+    }
+
+    .Image-Persona {
+        width: 80%;
+        max-width: 300px;
+    }
+
+    .Title-Informacion {
+        font-size: 2.5rem;
+    }
+
+    .Informacion {
+        width: 90%;
+        font-size: 1rem;
+    }
+
+    .tabla-juegos {
+        font-size: 0.8rem;
+    }
+
+    .tabla-juegos th,
+    .tabla-juegos td {
+        padding: 5px;
+    }
+
+    .button-Container {
+        flex-direction: column;
+        height: auto;
+        margin: 10px 0;
+    }
+
+    .button-agregar {
+        width: 100%;
+        max-width: 200px;
+    }
+
+    .form-completar {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .input {
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .Footer-Main {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        height: auto;
+    }
+}
+
+@media (max-width: 768px) {
+  .Header-Container {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    height: auto;
+  }
+
+  .Nav-UL {
+    margin: 0;
+    flex-direction: column;
+    width: auto;
+    gap: 10px;
+  }
+
+  .Container-Informacion {
+    flex-direction: column;
+    text-align: center;
+    gap: 30px;
+    padding: 20px;
+  }
+
+  .Image-Persona {
+    width: 80%;
+    max-width: 300px;
+  }
+
+  .Title-Informacion {
+    font-size: 2.5rem;
+  }
+
+  .Informacion {
+    width: 90%;
+    font-size: 1rem;
+  }
+
+  .tabla-juegos {
+    font-size: 0.8rem;
+  }
+
+  .tabla-juegos th,
+  .tabla-juegos td {
+    padding: 5px;
+  }
+
+  .button-Container {
+    flex-direction: column;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .button-agregar {
+    width: 100%;
+    max-width: 200px;
+  }
+
+  .form-completar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .input {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .Footer-Main {
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+    height: auto;
+  }
+}
