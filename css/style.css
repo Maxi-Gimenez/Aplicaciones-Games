@@ -213,7 +213,9 @@ main {
 }
 
 .btn.cancelar {
-    background-color: #333; }
+    background-color: #333; 
+    text-decoration: none;
+}
 
 
 /* RESPONSIVE */
@@ -227,9 +229,8 @@ main {
 
     .Nav-UL {
         margin: 0;
-        flex-direction: column;
         width: auto;
-        gap: 10px;
+        gap: 25px;
     }
 
     .Container-Informacion {
@@ -288,5 +289,7 @@ main {
         gap: 10px;
         text-align: center;
         height: auto;
+
+        font-size: 15px;
     }
 }
